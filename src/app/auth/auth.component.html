@@ -1,0 +1,5 @@
+<div class="container">
+    <h2>Authentification</h2>
+    <button class="btn btn-success" *ngIf="!authStatus" (click)="Connection()">Connection</button>
+    <button class="btn btn-danger" *ngIf="authStatus" (click)="Deconnection()">Deconnection</button>
+</div>

@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+
+
+        <app-article *ngFor="let article of articles" [nom]="article.nom" [model]="article.model" [prix]="article.prix" [id]="article.id"></app-article>
+
+
+        <!-- <app-mon-premier *ngFor="let Person of Persons,
+                let i = index" [indexAppareil]="i" [name]="Person.name" [age]="Person.age"></app-mon-premier>
+                <br><br><br>
+                <button class="btn btn-success" (click)="augmenter()">tout-augmenter</button>
+                <button class="btn btn-danger" (click)="baisser()">tout-baisser</button> -->
+
+
+    </div>
+</div>
